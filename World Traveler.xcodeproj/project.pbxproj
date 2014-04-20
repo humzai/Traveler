@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44321C501903656300298DF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44321C4F1903656300298DF5 /* Foundation.framework */; };
+		44321C521903656300298DF5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44321C511903656300298DF5 /* CoreGraphics.framework */; };
+		44321C541903656300298DF5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44321C531903656300298DF5 /* UIKit.framework */; };
+		44321C5A1903656300298DF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44321C581903656300298DF5 /* InfoPlist.strings */; };
+		44321C5C1903656300298DF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44321C5B1903656300298DF5 /* main.m */; };
+		44321C601903656300298DF5 /* TCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44321C5F1903656300298DF5 /* TCAppDelegate.m */; };
+		44321C631903656300298DF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44321C611903656300298DF5 /* Main.storyboard */; };
+		44321C661903656300298DF5 /* TCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44321C651903656300298DF5 /* TCViewController.m */; };
+		44321C681903656300298DF5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44321C671903656300298DF5 /* Images.xcassets */; };
+		44321C6F1903656300298DF5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44321C6E1903656300298DF5 /* XCTest.framework */; };
+		44321C701903656300298DF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44321C4F1903656300298DF5 /* Foundation.framework */; };
+		44321C711903656300298DF5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44321C531903656300298DF5 /* UIKit.framework */; };
+		44321C791903656300298DF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44321C771903656300298DF5 /* InfoPlist.strings */; };
+		44321C7B1903656300298DF5 /* World_TravelerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44321C7A1903656300298DF5 /* World_TravelerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44321C721903656300298DF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44321C441903656300298DF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44321C4B1903656300298DF5;
+			remoteInfo = "World Traveler";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		44321C4C1903656300298DF5 /* World Traveler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "World Traveler.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44321C4F1903656300298DF5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		44321C511903656300298DF5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		44321C531903656300298DF5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		44321C571903656300298DF5 /* World Traveler-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "World Traveler-Info.plist"; sourceTree = "<group>"; };
+		44321C591903656300298DF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		44321C5B1903656300298DF5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		44321C5D1903656300298DF5 /* World Traveler-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "World Traveler-Prefix.pch"; sourceTree = "<group>"; };
+		44321C5E1903656300298DF5 /* TCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCAppDelegate.h; sourceTree = "<group>"; };
+		44321C5F1903656300298DF5 /* TCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCAppDelegate.m; sourceTree = "<group>"; };
+		44321C621903656300298DF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44321C641903656300298DF5 /* TCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCViewController.h; sourceTree = "<group>"; };
+		44321C651903656300298DF5 /* TCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCViewController.m; sourceTree = "<group>"; };
+		44321C671903656300298DF5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		44321C6D1903656300298DF5 /* World TravelerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "World TravelerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44321C6E1903656300298DF5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		44321C761903656300298DF5 /* World TravelerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "World TravelerTests-Info.plist"; sourceTree = "<group>"; };
+		44321C781903656300298DF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		44321C7A1903656300298DF5 /* World_TravelerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = World_TravelerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44321C491903656300298DF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44321C521903656300298DF5 /* CoreGraphics.framework in Frameworks */,
+				44321C541903656300298DF5 /* UIKit.framework in Frameworks */,
+				44321C501903656300298DF5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44321C6A1903656300298DF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44321C6F1903656300298DF5 /* XCTest.framework in Frameworks */,
+				44321C711903656300298DF5 /* UIKit.framework in Frameworks */,
+				44321C701903656300298DF5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44321C431903656300298DF5 = {
+			isa = PBXGroup;
+			children = (
+				44321C551903656300298DF5 /* World Traveler */,
+				44321C741903656300298DF5 /* World TravelerTests */,
+				44321C4E1903656300298DF5 /* Frameworks */,
+				44321C4D1903656300298DF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44321C4D1903656300298DF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44321C4C1903656300298DF5 /* World Traveler.app */,
+				44321C6D1903656300298DF5 /* World TravelerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44321C4E1903656300298DF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44321C4F1903656300298DF5 /* Foundation.framework */,
+				44321C511903656300298DF5 /* CoreGraphics.framework */,
+				44321C531903656300298DF5 /* UIKit.framework */,
+				44321C6E1903656300298DF5 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44321C551903656300298DF5 /* World Traveler */ = {
+			isa = PBXGroup;
+			children = (
+				44321C5E1903656300298DF5 /* TCAppDelegate.h */,
+				44321C5F1903656300298DF5 /* TCAppDelegate.m */,
+				44321C611903656300298DF5 /* Main.storyboard */,
+				44321C641903656300298DF5 /* TCViewController.h */,
+				44321C651903656300298DF5 /* TCViewController.m */,
+				44321C671903656300298DF5 /* Images.xcassets */,
+				44321C561903656300298DF5 /* Supporting Files */,
+			);
+			path = "World Traveler";
+			sourceTree = "<group>";
+		};
+		44321C561903656300298DF5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				44321C571903656300298DF5 /* World Traveler-Info.plist */,
+				44321C581903656300298DF5 /* InfoPlist.strings */,
+				44321C5B1903656300298DF5 /* main.m */,
+				44321C5D1903656300298DF5 /* World Traveler-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		44321C741903656300298DF5 /* World TravelerTests */ = {
+			isa = PBXGroup;
+			children = (
+				44321C7A1903656300298DF5 /* World_TravelerTests.m */,
+				44321C751903656300298DF5 /* Supporting Files */,
+			);
+			path = "World TravelerTests";
+			sourceTree = "<group>";
+		};
+		44321C751903656300298DF5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				44321C761903656300298DF5 /* World TravelerTests-Info.plist */,
+				44321C771903656300298DF5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44321C4B1903656300298DF5 /* World Traveler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44321C7E1903656300298DF5 /* Build configuration list for PBXNativeTarget "World Traveler" */;
+			buildPhases = (
+				44321C481903656300298DF5 /* Sources */,
+				44321C491903656300298DF5 /* Frameworks */,
+				44321C4A1903656300298DF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "World Traveler";
+			productName = "World Traveler";
+			productReference = 44321C4C1903656300298DF5 /* World Traveler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		44321C6C1903656300298DF5 /* World TravelerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44321C811903656300298DF5 /* Build configuration list for PBXNativeTarget "World TravelerTests" */;
+			buildPhases = (
+				44321C691903656300298DF5 /* Sources */,
+				44321C6A1903656300298DF5 /* Frameworks */,
+				44321C6B1903656300298DF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44321C731903656300298DF5 /* PBXTargetDependency */,
+			);
+			name = "World TravelerTests";
+			productName = "World TravelerTests";
+			productReference = 44321C6D1903656300298DF5 /* World TravelerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44321C441903656300298DF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Humza Iqbal";
+				TargetAttributes = {
+					44321C6C1903656300298DF5 = {
+						TestTargetID = 44321C4B1903656300298DF5;
+					};
+				};
+			};
+			buildConfigurationList = 44321C471903656300298DF5 /* Build configuration list for PBXProject "World Traveler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44321C431903656300298DF5;
+			productRefGroup = 44321C4D1903656300298DF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44321C4B1903656300298DF5 /* World Traveler */,
+				44321C6C1903656300298DF5 /* World TravelerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44321C4A1903656300298DF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44321C681903656300298DF5 /* Images.xcassets in Resources */,
+				44321C5A1903656300298DF5 /* InfoPlist.strings in Resources */,
+				44321C631903656300298DF5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44321C6B1903656300298DF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44321C791903656300298DF5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44321C481903656300298DF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44321C661903656300298DF5 /* TCViewController.m in Sources */,
+				44321C5C1903656300298DF5 /* main.m in Sources */,
+				44321C601903656300298DF5 /* TCAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44321C691903656300298DF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44321C7B1903656300298DF5 /* World_TravelerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44321C731903656300298DF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44321C4B1903656300298DF5 /* World Traveler */;
+			targetProxy = 44321C721903656300298DF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		44321C581903656300298DF5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44321C591903656300298DF5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		44321C611903656300298DF5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44321C621903656300298DF5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		44321C771903656300298DF5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44321C781903656300298DF5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44321C7C1903656300298DF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		44321C7D1903656300298DF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44321C7F1903656300298DF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "World Traveler/World Traveler-Prefix.pch";
+				INFOPLIST_FILE = "World Traveler/World Traveler-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		44321C801903656300298DF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "World Traveler/World Traveler-Prefix.pch";
+				INFOPLIST_FILE = "World Traveler/World Traveler-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		44321C821903656300298DF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/World Traveler.app/World Traveler";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "World Traveler/World Traveler-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "World TravelerTests/World TravelerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		44321C831903656300298DF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/World Traveler.app/World Traveler";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "World Traveler/World Traveler-Prefix.pch";
+				INFOPLIST_FILE = "World TravelerTests/World TravelerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44321C471903656300298DF5 /* Build configuration list for PBXProject "World Traveler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44321C7C1903656300298DF5 /* Debug */,
+				44321C7D1903656300298DF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44321C7E1903656300298DF5 /* Build configuration list for PBXNativeTarget "World Traveler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44321C7F1903656300298DF5 /* Debug */,
+				44321C801903656300298DF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		44321C811903656300298DF5 /* Build configuration list for PBXNativeTarget "World TravelerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44321C821903656300298DF5 /* Debug */,
+				44321C831903656300298DF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44321C441903656300298DF5 /* Project object */;
+}
