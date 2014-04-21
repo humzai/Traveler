@@ -8,9 +8,10 @@
 
 #import <Foundation/Foundation.h>
 #import <CoreData/CoreData.h>
+#import "TCRecord.h"
 
 
-@interface Menu : NSManagedObject
+@interface Menu : TCRecord
 
 @property (nonatomic, retain) NSString * label;
 @property (nonatomic, retain) NSString * url;

@@ -8,15 +8,15 @@
 
 #import <Foundation/Foundation.h>
 #import <CoreData/CoreData.h>
+#import "TCRecord.h"
 
-@class FSCategory, Location, Menu;
+@class Contact, FSCategory, Location, Menu;
 
-@interface Venue : NSManagedObject
-
+@interface Venue : TCRecord
 @property (nonatomic, retain) NSString * id;
 @property (nonatomic, retain) NSString * name;
 @property (nonatomic, retain) FSCategory *categories;
-@property (nonatomic, retain) NSManagedObject *contact;
+@property (nonatomic, retain) Contact *contact;
 @property (nonatomic, retain) Location *location;
 @property (nonatomic, retain) Menu *menu;
 

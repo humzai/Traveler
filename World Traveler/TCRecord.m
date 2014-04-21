@@ -10,4 +10,9 @@
 
 @implementation TCRecord
 
++(NSString *)keyPathForResponseObject
+{
+    return @"response";
+}
+
 @end

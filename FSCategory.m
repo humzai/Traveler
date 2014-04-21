@@ -13,7 +13,6 @@
 
 @dynamic id;
 @dynamic name;
-@dynamic attribute;
 @dynamic venue;
 
 @end

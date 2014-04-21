@@ -10,6 +10,7 @@
 #import "FSCategory.h"
 #import "Location.h"
 #import "Menu.h"
+#import "Contact.h"
 
 
 @implementation Venue
@@ -20,5 +21,10 @@
 @dynamic contact;
 @dynamic location;
 @dynamic menu;
+
++(NSString *)keyPathForResponseObject
+{
+    return @"response.venues";
+}
 
 @end

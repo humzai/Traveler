@@ -8,13 +8,12 @@
 
 #import <Foundation/Foundation.h>
 #import <CoreData/CoreData.h>
+#import "TCRecord.h"
 
-@class Venue;
 
-@interface Contact : NSManagedObject
+@interface Contact : TCRecord
 
 @property (nonatomic, retain) NSString * formattedPhone;
 @property (nonatomic, retain) NSString * phone;
-@property (nonatomic, retain) Venue *venue;
-
+@property (nonatomic, retain) NSManagedObject *venue;
 @end

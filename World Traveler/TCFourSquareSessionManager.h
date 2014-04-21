@@ -10,4 +10,6 @@
 
 @interface TCFourSquareSessionManager : AFHTTPSessionManager
 
++(instancetype)sharedClient;
+
 @end

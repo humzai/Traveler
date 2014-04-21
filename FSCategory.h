@@ -8,13 +8,13 @@
 
 #import <Foundation/Foundation.h>
 #import <CoreData/CoreData.h>
+#import "TCRecord.h"
 
 
-@interface FSCategory : NSManagedObject
+@interface FSCategory : TCRecord
 
 @property (nonatomic, retain) NSString * id;
 @property (nonatomic, retain) NSString * name;
-@property (nonatomic, retain) NSString * attribute;
 @property (nonatomic, retain) NSManagedObject *venue;
 
 @end

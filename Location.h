@@ -8,9 +8,10 @@
 
 #import <Foundation/Foundation.h>
 #import <CoreData/CoreData.h>
+#import "TCRecord.h"
 
 
-@interface Location : NSManagedObject
+@interface Location : TCRecord
 
 @property (nonatomic, retain) NSString * address;
 @property (nonatomic, retain) NSString * cc;
